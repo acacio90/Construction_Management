@@ -1,8 +1,13 @@
-import './Style';
-import React from 'react';
+import React, { Component } from 'react';
 
-function Nav(props) {
-  return <aside className="menu">Navbar</aside>;
+class Nav extends Component {
+  render() {
+    return <aside className="menu">Navbar</aside>;
+  }
 }
+
+// function Nav(props) {
+//   return <aside className="menu">Navbar</aside>;
+// }
 
 export default Nav;

@@ -1,8 +1,13 @@
-import './Style';
-import React from 'react';
+import React, { Component } from 'react';
 
-function Logo(props) {
-  return <aside className="logo">Logo</aside>;
+class Logo extends Component {
+  render() {
+    return <aside className="logo">Logo</aside>;
+  }
 }
+
+// function Logo(props) {
+//   return <aside className="logo">Logo</aside>;
+// }
 
 export default Logo;

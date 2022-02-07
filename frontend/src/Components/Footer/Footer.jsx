@@ -1,8 +1,13 @@
-import './Style';
-import React from 'react';
+import React, { Component } from 'react';
 
-function Footer(props) {
-  return <footer className="footer">Foooter</footer>;
+class Footer extends Component {
+  render() {
+    return <footer className="footer">Foooter</footer>;
+  }
 }
+
+// function Footer(props) {
+//   return <footer className="footer">Foooter</footer>;
+// }
 
 export default Footer;
